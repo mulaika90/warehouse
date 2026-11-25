@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" fill="none">
+  <defs>
+    <linearGradient id="background" x1="52" y1="28" x2="564" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241735"/>
+      <stop offset="1" stop-color="#0E0B14"/>
+    </linearGradient>
+    <linearGradient id="box" x1="246" y1="146" x2="401" y2="343" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C2A3FF"/>
+      <stop offset="1" stop-color="#7547C6"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="28" fill="url(#background)"/>
+  <circle cx="320" cy="236" r="143" fill="#A879F0" fill-opacity=".09"/>
+  <path d="m320 113 108 60v126l-108 61-108-61V173l108-60Z" fill="url(#box)"/>
+  <path d="m212 173 108 61 108-61M320 234v126" stroke="#F0E8FF" stroke-opacity=".72" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m266 143 108 62v64l-108-62v-64Z" fill="#F5EEFF" fill-opacity=".24"/>
+  <text x="320" y="416" fill="#EDE4FF" font-family="Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="3" text-anchor="middle">DEMO INVENTORY</text>
+</svg>
